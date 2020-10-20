@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Candy Museum</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- Fonts -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!-- Css -->
+	<link rel="stylesheet" type="text/css" href="candy.css">
+</head>
+
+<body>
+	<nav id="mainNavbar" class="navbar navbar-dark navbar-expand-lg py-0 fixed-top">
+		<a href="#" class="navbar-brand">CANDY</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="" class="nav-link">HOME</a>
+				</li>
+				<li class="nav-item">
+					<a href="#abt" class="nav-link">ABOUT</a>
+				</li>
+				<li class="nav-item">
+					<a href="#idStore" class="nav-link">STORE</a>
+				</li>
+				<li class="nav-item">
+					<a href="#sticky-footer" class="nav-link">CONTACT</a>
+				</li>
+			</ul>
+			<form class="form-inline ">
+				<button id="cart-nav-button" class="btn"><span id="item-count">0 </span><span id="item-items"> item -
+						$</span> <span id="item-total">0.0</span></button>
+			</form>
+		</div>
+	</nav>
+	<section class="container-fluid px-0">
+		<div class="row align-items-center">
+			<div class="col-6">
+				<div id="headingSpan" class="text-white text-center d-none d-lg-block mt-5">
+					<h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+					<h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+					<h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+					<h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+					<h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<img class="img-fluid" src="img/hand2.png">
+			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid px-0">
+		<div data-spy="scroll" data-target="#mainNavbar" data-offset="0">
+			<div id="abt" class="row align-items-center content">
+				<div class="col-md-6 order-2 order-md-1">
+					<img class="img-fluid" src="img/milk.png">
+				</div>
+				<div class="col-md-6 text-center order-1 order-md-2">
+					<div class="row justify-content-center">
+						<div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+							<h2>CANDY SHOP</h2>
+							<img src="img/lolli_icon.png" class="d-none d-lg-inline">
+							<p class="lead"><span class="txtAbout">Lorem ipsum dolor sit amet, consectetur adipiscing
+									elit. Aenean ultrices elit blandit suscipit consectetur. Nam vitae varius dui, vitae
+									interdum tortor. Fusce lacinia turpis non nibh laoreet viverra et pellentesque
+									nulla. Suspendisse quis dapibus augue. Suspendisse semper non ex at luctus.</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- second row -->
+			<div class="row align-items-center content">
+				<div class="col-md-6 text-center">
+					<div class="row justify-content-center">
+						<div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+							<h2>WHAT WE DO</h2>
+							<img src="img/lolli_icon.png" class="d-none d-lg-inline">
+							<p class="lead"><span class="txtAbout">Lorem ipsum dolor sit amet, consectetur adipiscing
+									elit. Aenean ultrices elit blandit suscipit consectetur. Nam vitae varius dui, vitae
+									interdum tortor. Fusce lacinia turpis non nibh laoreet viverra et pellentesque
+									nulla. Suspendisse quis dapibus augue. Suspendisse semper non ex at luctus.</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img class="img-fluid" src="img/gumball.png">
+				</div>
+			</div>
+			<!-- third row -->
+			<div class="row align-items-center content">
+				<div class="col-md-6 order-2 order-md-1">
+					<img class="img-fluid" src="img/sprinkles.png">
+				</div>
+				<div class="col-md-6 text-center order-1 order-md-2">
+					<div class="row justify-content-center">
+						<div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+							<h2>OUR HISTORY</h2>
+							<img src="img/lolli_icon.png" class="d-none d-lg-inline">
+							<p class="lead"><span class="txtAbout">Lorem ipsum dolor sit amet, consectetur adipiscing
+									elit. Aenean ultrices elit blandit suscipit consectetur. Nam vitae varius dui, vitae
+									interdum tortor. Fusce lacinia turpis non nibh laoreet viverra et pellentesque
+									nulla. Suspendisse quis dapibus augue. Suspendisse semper non ex at luctus.</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Store Section -->
+			<section id="idStore" class="store py-5">
+				<div class="container">
+					<!-- section title Store -->
+					<div class="row">
+						<div class="col-10 mx-auto col-sm-6 text-center">
+							<h1 class="text-capitalize">our <strong class="banner-title ">store</strong></h1>
+						</div>
+					</div>
+					<!--filter buttons -->
+					<div class="row">
+						<div class=" col-lg-8 mx-auto d-flex justify-content-around my-2 sortBtn flex-wrap">
+							<a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+								data-filter="all"> all</a>
+							<a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+								data-filter="cakes">cakes</a>
+							<a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+								data-filter="cupcakes">cupcakes</a>
+							<a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+								data-filter="sweets">sweets</a>
+							<a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+								data-filter="doughnuts">doughnuts</a>
+						</div>
+					</div>
+					<!-- search box -->
+					<div class="row">
+						<div class="col-10 mx-auto col-md-6">
+							<form>
+								<div class="input-group mb-3">
+									<input type="text" class="form-control" placeholder='Item' id="search-item">
+								</div>
+							</form>
+						</div>
+					</div>
+					<!-- store  items-->
+					<div class="row" id="store-items">
+						<!-- Item 1-->
+						<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+							<div class="card">
+								<div class="img-container reveal_card">
+									<img src="img/sweets-1.jpeg" class="card-img-top store-img" alt="">
+									<figcaption>
+										<p>Sweet Item</p>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi
+											placeat maiores autem fugiat quo est, maxime, iure deleniti, sunt earum unde
+											in suscipit. Ex numquam doloribus enim iste nobis?</p>
+										<br>
+										<p>Try it!</p>
+									</figcaption>
+								</div>
+								<div class="card-body">
+									<div class="card-text justify-content-between text-capitalize">
+										<h5 id="store-item-name">Sweet item</h5>
+										<h5 class="store-item-value">$ <strong class="store-item-price">4</strong></h5>
+										<button data-index="0" class="buy"><i class="fa fa-cart-plus"
+												style="font-size: 32px;"></i></button>
+									</div>
+								</div>
+							</div> <!-- end of card-->
+						</div>
+						<!-- Item 2 -->
+						<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cupcakes" data-item="cupcakes">
+							<div class="card ">
+								<div class="img-container reveal_card">
+									<img src="img/cupcake-1.jpeg" class="card-img-top store-img" alt="">
+									<figcaption>
+										<p>Cupcake Item</p>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi
+											placeat maiores autem fugiat quo est, maxime, iure deleniti, sunt earum unde
+											in suscipit. Ex numquam doloribus enim iste nobis?</p>
+										<br>
+										<p>Appreciate it!</p>
+									</figcaption>
+								</div>
+								<div class="card-body">
+									<div class="card-text justify-content-between text-capitalize">
+										<h5 id="store-item-name">Cupcake item</h5>
+										<h5 class="store-item-value">$ <strong class="store-item-price">5</strong></h5>
+										<button data-index="1" class="buy"><i class="fa fa-cart-plus"
+												style="font-size: 32px;"></i></button>
+									</div>
+								</div>
+							</div><!-- end of card-->
+						</div>
+						<!-- Item 3 -->
+						<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cakes" data-item="cakes">
+							<div class="card ">
+								<div class="img-container reveal_card">
+									<img src="img/cake-1.jpeg" class="card-img-top store-img" alt="">
+									<figcaption>
+										<p>Cake Item</p>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi
+											placeat maiores autem fugiat quo est, maxime, iure deleniti, sunt earum unde
+											in suscipit. Ex numquam doloribus enim iste nobis?</p>
+										<br>
+										<p>Enjoy it!</p>
+									</figcaption>
+								</div>
+								<div class="card-body">
+									<div class="card-text justify-content-between text-capitalize">
+										<h5 id="store-item-name">Cake item</h5>
+										<h5 class="store-item-value">$ <strong class="store-item-price">10</strong></h5>
+										<button data-index="2" class="buy"><i class="fa fa-cart-plus"
+												style="font-size: 32px;"></i></button>
+									</div>
+								</div>
+							</div><!-- end of card-->
+						</div>
+						<!-- Item 4-->
+						<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item doughnuts" data-item="doughnuts">
+							<div class="card ">
+								<div class="img-container reveal_card">
+									<img src="img/doughnut-1.jpeg" class="card-img-top store-img" alt="">
+									<figcaption>
+										<p>Doughnuts Item</p>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi
+											placeat maiores autem fugiat quo est, maxime, iure deleniti, sunt earum unde
+											in suscipit. Ex numquam doloribus enim iste nobis?</p>
+										<br>
+										<p>Try it!</p>
+									</figcaption>
+								</div>
+								<div class="card-body">
+									<div class="card-text justify-content-between text-capitalize">
+										<h5 id="store-item-name">Doughnut item</h5>
+										<h5 class="store-item-value">$ <strong class="store-item-price">8</strong></h5>
+										<button data-index="3" class="buy"><i class="fa fa-cart-plus"
+												style="font-size: 32px;"></i></button>
+									</div>
+								</div>
+							</div> <!-- end of card-->
+						</div>
+						<!-- Item 5 -->
+						<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+							<div class="card ">
+								<div class="img-container reveal_card">
+									<img src="img/sweets-2.jpeg" class="card-img-top store-img" alt="">
+									<figcaption>
+										<p>Sweet Item</p>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi
+											placeat maiores autem fugiat quo est, maxime, iure deleniti, sunt earum unde
+											in suscipit. Ex numquam doloribus enim iste nobis?</p>
+										<br>
+										<p>Appreciate it!</p>
+									</figcaption>
+								</div>
+								<div class="card-body">
+									<div class="card-text justify-content-between text-capitalize">
+										<h5 id="store-item-name">Sweet item</h5>
+										<h5 class="store-item-value">$ <strong class="store-item-price">10</strong></h5>
+										<button data-index="4" class="buy"><i class="fa fa-cart-plus"
+												style="font-size: 32px;"></i></button>
+									</div>
+								</div>
+							</div><!-- end of card-->
+						</div>
+						<!-- Item 6 -->
+						<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cupcakes" data-item="cupcakes">
+							<div class="card ">
+								<div class="img-container reveal_card">
+									<img src="img/cupcake-2.jpeg" class="card-img-top store-img" alt="">
+									<figcaption>
+										<p>Cupcake Item</p>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi
+											placeat maiores autem fugiat quo est, maxime, iure deleniti, sunt earum unde
+											in suscipit. Ex numquam doloribus enim iste nobis?</p>
+										<br>
+										<p>Enjoy it!</p>
+									</figcaption>
+								</div>
+								<div class="card-body">
+									<div class="card-text justify-content-between text-capitalize">
+										<h5 id="store-item-name">Cupcake item</h5>
+										<h5 class="store-item-value">$ <strong class="store-item-price">12</strong></h5>
+										<button data-index="5" class="buy"><i class="fa fa-cart-plus"
+												style="font-size: 32px;"></i></button>
+									</div>
+								</div>
+							</div><!-- end of card-->
+						</div>
+						<!-- Item 7-->
+						<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cakes" data-item="cakes">
+							<div class="card ">
+								<div class="img-container reveal_card">
+									<img src="img/cake-2.jpeg" class="card-img-top store-img" alt="">
+									<figcaption>
+										<p>Cake Item</p>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi
+											placeat maiores autem fugiat quo est, maxime, iure deleniti, sunt earum unde
+											in suscipit. Ex numquam doloribus enim iste nobis?</p>
+										<br>
+										<p>Try it!</p>
+									</figcaption>
+								</div>
+								<div class="card-body">
+									<div class="card-text justify-content-between text-capitalize">
+										<h5 id="store-item-name">Cake item</h5>
+										<h5 class="store-item-value">$ <strong class="store-item-price">15</strong></h5>
+										<button data-index="6" class="buy"><i class="fa fa-cart-plus"
+												style="font-size: 32px;"></i></button>
+									</div>
+								</div>
+							</div> <!-- end of card-->
+						</div>
+						<!-- Item 8 -->
+						<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item doughnuts" data-item="doughnuts">
+							<div class="card ">
+								<div class="img-container reveal_card">
+									<img src="img/doughnut-2.jpeg" class="card-img-top store-img" alt="">
+									<figcaption>
+										<p>Doughnut Item</p>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi
+											placeat maiores autem fugiat quo est, maxime, iure deleniti, sunt earum unde
+											in suscipit. Ex numquam doloribus enim iste nobis?</p>
+										<br>
+										<p>Appreciate it!</p>
+									</figcaption>
+								</div>
+								<div class="card-body">
+									<div class="card-text justify-content-between text-capitalize">
+										<h5 id="store-item-name">Doughnut item</h5>
+										<h5 class="store-item-value">$ <strong class="store-item-price">20</strong></h5>
+										<button data-index="7" class="buy"><i class="fa fa-cart-plus"
+												style="font-size: 32px;"></i></button>
+									</div>
+								</div>
+							</div><!-- end of card-->
+						</div>
+						<!-- Item 9 -->
+						<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+							<div class="card ">
+								<div class="img-container reveal_card">
+									<img src="img/sweets-3.jpeg" class="card-img-top store-img" alt="">
+									<figcaption>
+										<p>Sweet Item</p>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi
+											placeat maiores autem fugiat quo est, maxime, iure deleniti, sunt earum unde
+											in suscipit. Ex numquam doloribus enim iste nobis?</p>
+										<br>
+										<p>Enjoy it!</p>
+									</figcaption>
+								</div>
+								<div class="card-body">
+									<div class="card-text justify-content-between text-capitalize">
+										<h5 id="store-item-name">Sweet item</h5>
+										<h5 class="store-item-value">$ <strong class="store-item-price">10</strong></h5>
+										<button data-index="8" class="buy"><i class="fa fa-cart-plus"
+												style="font-size: 32px;"></i></button>
+									</div>
+								</div>
+							</div><!-- end of card-->
+						</div>
+						<!-- Item 10-->
+						<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cupcakes" data-item="cupcakes">
+							<div class="card ">
+								<div class="img-container reveal_card">
+									<img src="img/cupcake-3.jpeg" class="card-img-top store-img" alt="">
+									<figcaption>
+										<p>Cupcake Item</p>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi
+											placeat maiores autem fugiat quo est, maxime, iure deleniti, sunt earum unde
+											in suscipit. Ex numquam doloribus enim iste nobis?</p>
+										<br>
+										<p>Try it!</p>
+									</figcaption>
+								</div>
+								<div class="card-body">
+									<div class="card-text justify-content-between text-capitalize">
+										<h5 id="store-item-name">Cupcake item</h5>
+										<h5 class="store-item-value">$ <strong class="store-item-price">15</strong></h5>
+										<button data-index="9" class="buy"><i class="fa fa-cart-plus"
+												style="font-size: 32px;"></i></button>
+									</div>
+								</div>
+							</div> <!-- end of card-->
+						</div>
+						<!-- Item 11 -->
+						<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item cakes" data-item="cakes">
+							<div class="card ">
+								<div class="img-container reveal_card">
+									<img src="img/cake-3.jpeg" class="card-img-top store-img" alt="">
+									<figcaption>
+										<p>Cake Item</p>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi
+											placeat maiores autem fugiat quo est, maxime, iure deleniti, sunt earum unde
+											in suscipit. Ex numquam doloribus enim iste nobis?</p>
+										<br>
+										<p>Appreciate it!</p>
+									</figcaption>
+								</div>
+								<div class="card-body">
+									<div class="card-text justify-content-between text-capitalize">
+										<h5 id="store-item-name">Cake item</h5>
+										<h5 class="store-item-value">$ <strong class="store-item-price">30</strong></h5>
+										<button data-index="10" class="buy"><i class="fa fa-cart-plus"
+												style="font-size: 32px;"></i></button>
+									</div>
+								</div>
+							</div><!-- end of card-->
+						</div>
+						<!-- Item 12 -->
+						<div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item doughnuts" data-item="doughnuts">
+							<div class="card ">
+								<div class="img-container reveal_card">
+									<img src="img/doughnut-3.jpeg" class="card-img-top store-img" alt="">
+									<figcaption>
+										<p>Doughnuts Item</p>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi
+											placeat maiores autem fugiat quo est, maxime, iure deleniti, sunt earum unde
+											in suscipit. Ex numquam doloribus enim iste nobis?</p>
+										<br>
+										<p>Enjoy it!</p>
+									</figcaption>
+								</div>
+								<div class="card-body">
+									<div class="card-text justify-content-between text-capitalize">
+										<h5 id="store-item-name">Doughnut item</h5>
+										<h5 class="store-item-value">$ <strong class="store-item-price">14</strong></h5>
+										<button data-index="11" class="buy"><i class="fa fa-cart-plus"
+												style="font-size: 32px;"></i></button>
+									</div>
+								</div>
+							</div><!-- end of card-->
+						</div>
+					</div> <!-- end row-->
+				</div> <!-- end container-->
+			</section>
+			<section>
+				<div id="containerFooter" class="container">
+					<div class="row">
+						<div id="columnContact" class="col-lg-6">
+							<h3>Business Opening Hours</h3>
+							<ul id="ulFooter">
+								<li>Monday 8:00 AM to 9:30 PM</li>
+								<li>Tuesday 8:00 AM to 9:30 PM</li>
+								<li>Wednesday 8:00 AM to 9:30 PM</li>
+								<li>Thursday 8:00 AM to 9:30 PM</li>
+								<li>Friday 8:00 AM to 9:30 PM</li>
+								<li>Saturday 9:00 AM to 6:30 PM</li>
+								<li>Sunday 9:00 AM to 6:30 PM</li>
+							</ul>
+						</div>
+						<div id="phoneColumn" class="col-lg-6">
+							<i class="fa fa-phone" style="font-size:24px"> Phone: +61 (03) 411 802 487</i>
+							<i class="fa fa-envelope" style="font-size:24px"> Email: fernandosalviati@gmail.com</i>
+							<i class="fa fa-map-marker" style="font-size:24px"> Melbourne, Australia</i><br>
+							<br>
+							<br>
+						</div>
+					</div>
+				</div>
+				<!-- Footer Section -->
+				<footer id="sticky-footer" class="py-4">
+					<a id="linkedinIcon" href="https://www.linkedin.com/in/fernando-salviati-b44726145/"
+						class="fa fa-linkedin"></a>
+					<a id="gitIcon" href="https://github.com/fsalviati" class="fa fa-github"></a>
+					<div class="container text-center" style="color: black;">
+						<small>© 2020 Fernando Salviati</small>
+				</footer>
+			</section>
+		</div> <!-- end DIV scroll	 -->
+	</section>
+
+	<!-- JavaScript -->
+	<script src="candy.js"></script>
+</body>
+
+</html>
